@@ -5,6 +5,7 @@ CREATE TABLE `User` (
   `FirstName` varchar(100) DEFAULT NULL,
   `LastName` varchar(100) DEFAULT NULL,
   `ContactID` bigint unsigned DEFAULT NULL,
+  `Email` varchar(200) DEFAULT NULL,
   `ProfileImage` varchar(200) DEFAULT NULL,
   `CreatedBy` bigint unsigned DEFAULT NULL,
   `CreatedOn` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
